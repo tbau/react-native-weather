@@ -1,3 +1,4 @@
+/* groovylint-disable CompileStatic, NoDef, VariableTypeRequired */
 apply plugin: 'com.android.application'
 apply plugin: 'com.facebook.react'
 
@@ -124,10 +125,9 @@ def reactNativeArchitectures() {
 def releaseConfig = { }
 
 tasks.whenTaskAdded { theTask ->
-    if (theTask.name.matches('packageRelease')) {
-        System.out.println(theTask.name)
-        releaseConfig = askForPasswords()
-    }
+    // if (theTask.name.matches('packageRelease')) {
+    //     releaseConfig = askForPasswords()
+    // }
 }
 
 android {

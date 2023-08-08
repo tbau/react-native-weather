@@ -4,11 +4,10 @@ import style from './Home.style.js';
 import { useEffect, useState } from 'react';
 import { jsdom } from 'jsdom-jscore-rn'
 import {Platform} from 'react-native';
-import * as locationJson from "locationData"
+import locationJson from "./locationData"
 
 export default function Home() {
-    let weatherArn = "https://8kg7msou58.execute-api.us-east-2.amazonaws.com/default/getWeatherAppConfig";
-
+    
     let locationArray = Object.keys(locationJson).map((e) => {
         return { 'label': e, 'value': locationJson[e] }
     });
