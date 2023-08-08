@@ -13,5 +13,4 @@ The development of this project is mostly focused on Android. To build and run t
 ## Screenshots
 
 <img src="screenshots/screenshot1.png" width="200">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="screenshots/screenshot2.png" width="200">
